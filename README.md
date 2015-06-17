@@ -38,7 +38,7 @@ This is anything but an exhaustive reference for all things JavaScript. When in 
   console.log(capitalize(mia));
   ```
 
-- [1.2 Multi-Line](#1.2) For multi-line comments, use `/** ... */`. Describe the code block, and include types and values for all parameters and any return values. See [JS Doc](http://usejsdoc.org/) for types.
+- **<a href="#1.2">1.2 Multi-Line</a><a name="user-content-1.2"></a>** For multi-line comments, use `/** ... */`. Describe the code block, and include types and values for all parameters and any return values. See [JS Doc](http://usejsdoc.org/) for types.
 
   **Bad**
   ```javascript
@@ -68,7 +68,7 @@ This is anything but an exhaustive reference for all things JavaScript. When in 
     return something;
   }
   ```
-- [1.3 Comment Length](#1.3) Keep comments concise, generally to 7-10 words per line. Also, avoid adding comments where the code is self explanatory. In general, however, it is better to err on the side of commenting too much than not enough.
+- **<a href="#1.3">1.3 Comment Length</a><a name="user-content-1.3"></a>** Keep comments concise, generally to 7-10 words per line. Also, avoid adding comments where the code is self explanatory. In general, however, it is better to err on the side of commenting too much than not enough.
 
   **Bad**
   ```javascript
@@ -83,7 +83,7 @@ This is anything but an exhaustive reference for all things JavaScript. When in 
   var grumbling = ((pug1 + pug2) * 2) / 0.5;
   console.log(grumbling);
   ```
-- [1.4 To Do](#1.4) Flag code that should be fixed or improved with `TODO`.
+- **<a href="#1.4">1.4 Single-Line</a><a name="user-content-1.4"></a>** Flag code that should be fixed or improved with `TODO`.
 
   ```javascript
   // TODO: clean up variable declarations
