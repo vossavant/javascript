@@ -10,7 +10,7 @@ This is anything but an exhaustive reference for all things JavaScript. When in 
 4. 
 
 ## <a name="comments">Comments</a>
-- **<a name="1.1">1.1 Single-Line</a>** Use `//` for single-line comments. Place a newline above the comment, and place the comment directly above the code block being annotated.
+- **<a href="#1.1">1.1 Single-Line</a><a name="user-content-1.1"></a>** Use `//` for single-line comments. Place a newline above the comment, and place the comment directly above the code block being annotated.
 
   **Bad**
   ```javascript
