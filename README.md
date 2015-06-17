@@ -10,7 +10,7 @@ This is anything but an exhaustive reference for all things JavaScript. When in 
 4. 
 
 ## <a name="comments">Comments</a>
-- 1.1 Use `//` for single-line comments. Place a newline above the comment, and place the comment directly above the code block being annotated.
+- [1.1 Single-Line](#1.1) Use `//` for single-line comments. Place a newline above the comment, and place the comment directly above the code block being annotated.
 
   **Bad**
   ```javascript
@@ -38,7 +38,7 @@ This is anything but an exhaustive reference for all things JavaScript. When in 
   console.log(capitalize(mia));
   ```
 
-- 1.2 For multi-line comments, use `/** ... */`. Describe the code block, and include types and values for all parameters and any return values. See [JS Doc](http://usejsdoc.org/) for types.
+- [1.2 Multi-Line](#1.2) For multi-line comments, use `/** ... */`. Describe the code block, and include types and values for all parameters and any return values. See [JS Doc](http://usejsdoc.org/) for types.
 
   **Bad**
   ```javascript
@@ -68,7 +68,7 @@ This is anything but an exhaustive reference for all things JavaScript. When in 
     return something;
   }
   ```
-- 1.3 Keep comments concise, generally to 7-10 words per line. Also, avoid adding comments where the code is self explanatory. In general, however, it is better to err on the side of commenting too much than not enough.
+- [1.3 Comment Length](#1.3) Keep comments concise, generally to 7-10 words per line. Also, avoid adding comments where the code is self explanatory. In general, however, it is better to err on the side of commenting too much than not enough.
 
   **Bad**
   ```javascript
@@ -83,11 +83,11 @@ This is anything but an exhaustive reference for all things JavaScript. When in 
   var grumbling = ((pug1 + pug2) * 2) / 0.5;
   console.log(grumbling);
   ```
-- 1.4 Flag code that should be fixed or improved with `TODO`.
+- [1.4 To Do](#1.4) Flag code that should be fixed or improved with `TODO`.
 
   ```javascript
   // TODO: clean up variable declarations
   var officeDogs = array('Charlie', 'Mia', 'Duke', 'Ninja', 'Butters');
-  var daysOfWeek = array('M', 'T', 'W', 'Th, 'F');
+  var daysOfWeek = array('M', 'T', 'W', 'Th', 'F');
   var beersOnTap = array('Titan IPA' => 'Great Divide', 'Unfiltered Wheat' => 'Boulevard');
   ```
